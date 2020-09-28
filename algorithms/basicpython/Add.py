@@ -1,5 +1,5 @@
-x=int(input("enter The First Number"))
-y=int(input("enter The second Number"))
-print("your entered values is :", "X:",x , "Y:",y)
+x=int(input("enter the first number"))
+y=int(input("enter the second number"))
+print("your entered values are ", "X: ",x , "Y: ",y)
 z=x+y
-print("The Answer is ",z)
+print("The sum of number is ",z)
