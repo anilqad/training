@@ -2,7 +2,7 @@ import math
 p=math.pi
 def cylinder():
     r = int(input("enter the cylinder Radius "))
-    h = int(input("enter the cylinder  area Height "))
+    h = int(input("enter the cylinder Height "))
     print("Cyinder value is ",p * (r * r) *h)
 def sphare():
     r = int(input("enter the Spahare radius area "))
