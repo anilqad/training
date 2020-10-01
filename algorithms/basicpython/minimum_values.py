@@ -1,11 +1,11 @@
 import array as ar
-a=ar.array('i',[1,2,4,9,1,258,87,-1])
-
-for i in range(len(a)):
-    for j in range(i + 1, len(a)):
-
-        if a[i] > a[j]:
-           a[i], a[j] = a[j], a[i]
-print(a)
-print("Minimam valis is ",a[0])
-print("Maxima Value is ",a[-1])
+a=ar.array('i',[1,2,4,9,1,258,87,-8,-52])
+minn=a[0]
+maxe=a[0]
+for i in range(0,len(a)):
+    if a[i] < minn :
+        minn=a[i]
+    if a[i] > maxe:
+        maxe = a[i]
+print(maxe)
+print(minn)
